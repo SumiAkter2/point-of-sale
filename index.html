@@ -39,8 +39,9 @@
                 <legend class="legend">Quantidade</legend>
                 <div class="inputs">
                   <input
-                    type="text"
-                    name="text"
+                    id="quantity"
+                    type="number"
+                    name="quantity"
                     class="input"
                     required
                     placeholder="1"
@@ -51,8 +52,9 @@
                 <legend class="legend">Valor Unitário</legend>
                 <div class="inputs">
                   <input
-                    type="text"
-                    name="text"
+                    id="unitary"
+                    type="number"
+                    name="unitary"
                     class="input"
                     required
                     placeholder="0,00"
@@ -63,17 +65,21 @@
                 <legend class="legend">Valor Total</legend>
                 <div class="inputs">
                   <input
-                    type="text"
-                    name="text"
+                    type="number"
+                    name="amount"
                     class="input"
-                    required
-                    placeholder="0,00"
+                    readonly
+                    id="amount"
                   />
                 </div>
               </div>
             </div>
 
-            <button type="button" class="button w-100 mt-4">
+            <button
+              type="submit"
+              onclick="getAmount()"
+              class="button w-100 mt-4"
+            >
               INCLUIR (ENTER)
             </button>
 
@@ -150,5 +156,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- js link -->
+    <script src="./index.js"></script>
   </body>
 </html>
