@@ -30,13 +30,7 @@
               <legend class="legend">leitor de código de barras (F2)</legend>
             </div>
             <div class="inputs">
-              <input
-                type="text"
-                name="text"
-                class="input"
-                placeholder="Enter Text"
-                required
-              />
+              <input type="text" name="text" class="input" required />
             </div>
             <div
               class="d-md-flex justify-content-center align-items-center gap-2 mt-3"
@@ -44,37 +38,19 @@
               <div>
                 <legend class="legend">Quantidade</legend>
                 <div class="inputs">
-                  <input
-                    type="text"
-                    name="text"
-                    class="input"
-                    placeholder="Enter Text"
-                    required
-                  />
+                  <input type="text" name="text" class="input" required />
                 </div>
               </div>
               <div>
                 <legend class="legend">Valor Unitário</legend>
                 <div class="inputs">
-                  <input
-                    type="text"
-                    name="text"
-                    class="input"
-                    placeholder="Enter Text"
-                    required
-                  />
+                  <input type="text" name="text" class="input" required />
                 </div>
               </div>
               <div>
                 <legend class="legend">Valor Total</legend>
                 <div class="inputs">
-                  <input
-                    type="text"
-                    name="text"
-                    class="input"
-                    placeholder="Enter Text"
-                    required
-                  />
+                  <input type="text" name="text" class="input" required />
                 </div>
               </div>
             </div>
@@ -84,7 +60,7 @@
             </button>
 
             <div class="mt-4">
-              <legend for="legend">Observações(Ctrl+o)</legend>
+              <legend for="legend" class="legend">Observações(Ctrl+o)</legend>
               <textarea class="textarea"></textarea>
             </div>
           </div>
@@ -92,13 +68,13 @@
         <div class="col-md-7">
           <div class="form">
             <div>
-              <legend class="legend">Quantidade</legend>
+              <legend class="legend">lista de produtos</legend>
               <div class="inputs">
                 <input
                   type="text"
                   name="text"
                   class="input"
-                  placeholder="Enter Text"
+                  placeholder="Aguardando abertura de pedido, Selecione um produto ou um pedido em eberto."
                   required
                 />
               </div>
@@ -114,9 +90,9 @@
 
       <div>
         <div class="row mt-5 justify-content-between">
-          <div class="col-6 operador w-25 p-2">
+          <div class="col-6 operador w-25">
             <div
-              class="d-flex justify-content-between align-items-center gap-2 pt-2"
+              class="d-flex justify-content-between align-items-center gap-2 pt-4"
             >
               <i class="fa-solid fa-circle-check fs-5"></i>
 
@@ -129,11 +105,21 @@
             </div>
           </div>
           <div class="col-6">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="mt-4 btn btn-secondary btn-sm">
+              TROCA DE MERCADORIA(F10)
+            </button>
+            <button type="button" class="mt-4 btn btn-warning btn-sm">
+              AJUDA(F1)
+            </button>
+            <button type="button" class="mt-4 btn btn-danger btn-sm">
+              CANCELAR(F9)
+            </button>
+            <button type="button" class="mt-4 btn btn-primary btn-sm">
+              AGUARDAR(F7)
+            </button>
+            <button type="button" class="mt-4 btn btn-success btn-sm">
+              PAGAMENTO(F6)
+            </button>
           </div>
         </div>
       </div>
