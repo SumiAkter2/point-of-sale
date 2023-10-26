@@ -16,17 +16,17 @@ body {
     margin: 2px;
     box-shadow:
         inset #405189 0 0 0 5px,
-        inset #0cab9c 0 0 0 10px,
-        inset #1fbdae 0 0 0 11px,
-        inset #8ce9ff 0 0 0 16px,
-        inset #48e4d6 0 0 0 17px,
-        inset #e5f9f7 0 0 0 21px,
-        inset #bfecf7 0 0 0 22px;
+        inset #40518932 0 0 5px,
+        inset #405189 0 0 0 11px,
+        inset #fff 0 0 0 16px,
+        inset #405189 0 0 0 17px,
+        inset #405189 0 0 0 21px,
+        inset #405189 0 0 0 22px;
     /* text-shadow: 3px 3px 1px #bfecf7; */
 }
 
 .form{
-    /* border:2px solid #405189; */
+   
     background: #40518929;
     border-radius: 5px;
     padding: 20px;
@@ -92,7 +92,7 @@ body {
 .button{
     background: rgb(44, 44, 76);
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: gray;
     border: 0;
     box-shadow: 2px 2px 8px 1px #405189;
@@ -109,4 +109,8 @@ body {
     font-size: 12px;
     border-top-left-radius:50px ;
     border-bottom-right-radius:50px ;
+}
+.divider{
+    height: 30px;
+    border: 1px solid gray;
 }

@@ -23,7 +23,7 @@
   <body class="box">
     <section class="md-container">
       <div class="row">
-        <div class="col-md-5 form-container">
+        <div class="col-md-5 form-container mt-4">
           <div class="form">
             <div class="d-flex justify-content-between align-items-start">
               <legend class="legend">Cod./ produto (ctrl+p)</legend>
@@ -38,19 +38,37 @@
               <div>
                 <legend class="legend">Quantidade</legend>
                 <div class="inputs">
-                  <input type="text" name="text" class="input" required />
+                  <input
+                    type="text"
+                    name="text"
+                    class="input"
+                    required
+                    placeholder="1"
+                  />
                 </div>
               </div>
               <div>
                 <legend class="legend">Valor Unitário</legend>
                 <div class="inputs">
-                  <input type="text" name="text" class="input" required />
+                  <input
+                    type="text"
+                    name="text"
+                    class="input"
+                    required
+                    placeholder="0,00"
+                  />
                 </div>
               </div>
               <div>
                 <legend class="legend">Valor Total</legend>
                 <div class="inputs">
-                  <input type="text" name="text" class="input" required />
+                  <input
+                    type="text"
+                    name="text"
+                    class="input"
+                    required
+                    placeholder="0,00"
+                  />
                 </div>
               </div>
             </div>
@@ -65,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 mt-4">
           <div class="form">
             <div>
               <legend class="legend">lista de produtos</legend>
@@ -90,9 +108,9 @@
 
       <div>
         <div class="row mt-5 justify-content-between">
-          <div class="col-6 operador w-25">
+          <div class="col-md-6 operador w-auto">
             <div
-              class="d-flex justify-content-between align-items-center gap-2 pt-4"
+              class="d-flex justify-content-md-between justify-content-sm-center align-items-center gap-2 pt-4 pl-2"
             >
               <i class="fa-solid fa-circle-check fs-5"></i>
 
@@ -100,17 +118,18 @@
                 <span class="fw-bold">OPERADOR (F3)</span>
                 suporte@3inai.com..
               </p>
-
+              <div class="divider"></div>
               <p class="w-100">PEDIDOS EM ABERTO (F4)</p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <button type="button" class="mt-4 btn btn-secondary btn-sm">
               TROCA DE MERCADORIA(F10)
             </button>
             <button type="button" class="mt-4 btn btn-warning btn-sm">
               AJUDA(F1)
             </button>
+
             <button type="button" class="mt-4 btn btn-danger btn-sm">
               CANCELAR(F9)
             </button>
