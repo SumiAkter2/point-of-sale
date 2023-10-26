@@ -89,11 +89,24 @@ body {
         text-align: center;
         font-weight:bold ;
 }
-
+.button{
+    background: rgb(44, 44, 76);
+    padding: 10px;
+    border-radius: 20px;
+    color: gray;
+    border: 0;
+    box-shadow: 2px 2px 8px 1px #405189;
+    transition: 0.6s;
+}
+.button:hover{
+    color: #000;
+    background: rgba(44, 44, 76, 0.309);
+    /* border: 1px solid #000; */
+}
 .operador{
     background: rgb(44, 44, 76);
-    color: #fff;
+    color: gray;
     font-size: 12px;
-    border-top-right-radius:50px ;
+    border-top-left-radius:50px ;
     border-bottom-right-radius:50px ;
 }
