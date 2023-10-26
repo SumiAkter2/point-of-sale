@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
+    height: 100%;
     background: #bfecf7;
 }
 
@@ -22,7 +22,7 @@ body {
         inset #48e4d6 0 0 0 17px,
         inset #e5f9f7 0 0 0 21px,
         inset #bfecf7 0 0 0 22px;
-    text-shadow: 3px 3px 1px #bfecf7;
+    /* text-shadow: 3px 3px 1px #bfecf7; */
 }
 
 .form{
@@ -33,9 +33,7 @@ body {
     box-shadow:2px 2px 8px 1px #405189; ;
 }
 
-.input,.textarea,
-.cart-textarea {
-   
+.input,.textarea{
     height: 45px;
     width: 100%;
     outline: none;
@@ -51,9 +49,8 @@ body {
     font-size: 14px;
 }
 
-.bg-cart{
-   background: url('./assets/cart.png');
-} span{
+
+ span{
     font-size: 14px;
 }
 .input:focus ,.textarea:focus 
@@ -81,8 +78,22 @@ body {
     height: 150px;
 }
 .cart-textarea{
-    border: 1px solid #4051899e;
+        border: 1px dotted #405189b8;
+        display: flex;
+        justify-content: center;
+        color:gray;
+        align-items: center;
+        background: url('https: //i.ibb.co/GpvzgZC/7635074.png');
         height: 340px;
         width: 100%;
         text-align: center;
+        font-weight:bold ;
+}
+
+.operador{
+    background: rgb(44, 44, 76);
+    color: #fff;
+    font-size: 12px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
 }
