@@ -24,7 +24,9 @@ body {
         inset #405189 0 0 0 22px;
     /* text-shadow: 3px 3px 1px #bfecf7; */
 }
-
+.first-row{
+height: 100vh;
+}
 .form{
    
     background: #40518929;
@@ -139,6 +141,16 @@ th {
     font-size: 12px;
     text-align: start;
     
+}
+.tr{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 20px;
+}
+.gg{
+    padding-left: 20px;
 }
 
 tr:nth-child(even) {
