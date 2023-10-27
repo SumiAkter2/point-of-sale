@@ -105,10 +105,40 @@
               </div>
             </div>
             <div class="mb-3">
-              <div class="cart-textarea mt-4">
-                <span> Seu caixa está livre no momento </span>
+              <div class="cart-textarea mt-4" id="cart-show">
+                <div>
+                  <table>
+                    <tr>
+                      <th>QTDE.</th>
+                      <th>COD.</th>
+                      <th>PRODUTO</th>
+                      <th>Valor Unitário</th>
+                      <th>Valor Total</th>
+                    </tr>
+                    <tr>
+                      <td>1.00 (CX)</td>
+                      <td>UVA0001</td>
+                      <td>Uva</td>
+                      <td id="unitary-total">R$</td>
+                      <td id="value-total">R$</td>
+                      <td class="table-logo">
+                        <i class="fa-solid fa-briefcase"></i
+                        ><i class="fa-solid fa-x"></i>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <br />
+                <span id="cart-span"> Seu caixa está livre no momento </span>
               </div>
             </div>
+          </div>
+
+          <div id="subtotal">
+            <p>SUBTOTAL</p>
+
+            <p id="total-amount"></p>
           </div>
         </div>
       </div>
