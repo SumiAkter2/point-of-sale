@@ -119,9 +119,10 @@ body {
 }
 
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+border-collapse: collapse;
+    border-spacing: 0;
     width: 100%;
+    border: 1px solid #ddd;
     
     
 }
