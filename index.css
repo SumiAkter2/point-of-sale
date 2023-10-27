@@ -13,7 +13,7 @@ body {
     background: #fff;
     font-family: Montserrat, sans-serif;
     padding: 40px;
-    margin: 2px;
+    /* margin: 2px; */
     box-shadow:
         inset #405189 0 0 0 5px,
         inset #40518932 0 0 5px,
@@ -40,7 +40,7 @@ body {
     font-size: 16px;
     border-radius: 5px;
     padding-left: 15px;
-    border: 1px solid #4051899e;
+    border: 1px solid #405189;
     border-bottom-width: 2px;
     transition: all 0.3s ease;
     position: relative;
@@ -93,7 +93,7 @@ body {
         font-weight:bold ;
 }
 .button{
-    background: rgb(44, 44, 76);
+    background: #405189;
     padding: 10px;
     border-radius: 10px;
     color: gray;
@@ -107,7 +107,7 @@ body {
     /* border: 1px solid #000; */
 }
 .operador{
-    background: rgb(44, 44, 76);
+    background: #405189;
     color: gray;
     font-size: 12px;
     border-top-left-radius:50px ;
