@@ -10,10 +10,10 @@ body {
 }
 
 .box {
+    height: 100vh;
     background: #fff;
     font-family: Montserrat, sans-serif;
-    padding: 40px;
-    /* margin: 2px; */
+    padding: 30px;
     box-shadow:
         inset #405189 0 0 0 5px,
         inset #40518932 0 0 5px,
@@ -22,21 +22,22 @@ body {
         inset #405189 0 0 0 17px,
         inset #405189 0 0 0 21px,
         inset #405189 0 0 0 22px;
-    /* text-shadow: 3px 3px 1px #bfecf7; */
+    
 }
-.first-row{
-height: 100vh;
+.last-row{
+    position: absolute;
+    bottom: 25px;
 }
 .form{
    
     background: #40518929;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     box-shadow:2px 2px 8px 1px #405189; ;
 }
 
 .input,.textarea{
-    height: 45px;
+    height: 35px;
     width: 100%;
     outline: none;
     font-size: 16px;
@@ -75,12 +76,12 @@ height: 100vh;
 }
 
 .text {
-    margin-top: 10px;
+    margin-top: 5px;
     color: black;
 }
 .textarea{
     border: 1px solid #405189;
-    height: 150px;
+    height: 100px;
 }
 .cart-textarea{
         border: 1px dotted #405189;
@@ -89,7 +90,7 @@ height: 100vh;
         color:gray;
         align-items: center;
         background: url('https: //i.ibb.co/GpvzgZC/7635074.png');
-        height: 260px;
+        height: 200px;
         width: 100%;
         text-align: center;
         font-weight:bold ;
@@ -179,4 +180,13 @@ tr:nth-child(even) {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+}
+
+@media screen and (max-width:570px) {
+    .last-row{
+        position: relative;
+    }
+    .box{
+        height: 100%;
+    }
 }
