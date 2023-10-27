@@ -150,9 +150,6 @@ th {
     align-items: start;
     column-gap: 20px;
 }
-.gg{
-    padding-left: 20px;
-}
 
 tr:nth-child(even) {
     background-color: #dddddd;
