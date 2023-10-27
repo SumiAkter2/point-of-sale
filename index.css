@@ -128,16 +128,17 @@ border-collapse: collapse;
 }
 #cart-show{
     display: none;
+    text-align: start;
 }
 td,
 th {
-    /* border: 1px solid #dddddd; */
-    text-align: left;
+    border: 1px solid #dddddd;
+    text-align: start;
     padding: 8px;
     text-transform: uppercase;
     font-size: 12px;
     text-align: start;
-    border-bottom: 2px dotted gray;
+    
 }
 
 tr:nth-child(even) {
@@ -151,9 +152,11 @@ tr:nth-child(even) {
 }
 .fa-briefcase{
     color: #405189;
+    cursor: pointer;
 }
 .fa-x{
     color: red;
+    cursor: pointer;
 }
 #subtotal{
     background-color:#405189 ;
